@@ -9,9 +9,9 @@ h1 {
     color: orange;
 }
 
-section{
+.container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 170px;
 }
 
 .half-width {
@@ -42,4 +42,29 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     padding-left: 50px;
+ }
+
+ .experience{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+ }
+
+ .shadow-2{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+ }
+
+ .border1 {
+    border-left: 7px solid tomato;
+ }
+ .border2{
+    border-left: 7px solid blue;
+ }
+ footer p {
+    text-align: center;
  }
